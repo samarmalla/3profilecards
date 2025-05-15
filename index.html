@@ -4,57 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        #profile{
-            width: 100%;
-        height: 1000px;
-        background-color: antiquewhite;
-        text-align: center;
-        align-content: center;
-            
-        }
-        .div{
-            display: inline-block; /* Allow cards to sit side by side */
-            vertical-align: middle; /* Align cards vertically */
-            color: black;
-            width: 300px;
-            height: 450px;
-            border: 4px solid rgb(5, 1, 0);
-            margin: 0 20px; 
-            
-        }
-        #p1{
-            background-image: url(/3profilecards/photo1.jpg);
-            background-size: 100%;
+    <link rel="stylesheet" href="/3profilecards/style.css">
 
-            width: 298px;
-            height: 60%;
-            border: 1px solid;
-            
-            
-            
-        }
-        #name1{
-            
-           text-align: center;
-            border: 2px solid rgb(49, 2, 255);
-            border-radius: 50px;
-            width: 200px;
-            margin: 20px auto 10px auto; /* Center horizontally and add spacing */
-            padding: 10px 0; /* Optional: add vertical padding for better look */
-            
-        }
-        
-    </style>
 </head>
 <body>
-    <div id="profile">
-        <div class="div"><h2 id="name1">Sergio Ramos</h2>
-            <div id="p1"> </div>
+    <div class="container">
+        <div class="navbar">
+            <h1>Profile Cards</h1>
         </div>
-
-        <div class="div">Photo2</div>
-        <div class="div">Photo3</div>
+    <div class="profilecard">
+        <div class="badge">NEW</div>
+        <div class="image">
+            <img src="/3profilecards/photo1.jpg" alt="">
+        </div>
+        <h2>Ryan Anderson</h2>
+        <br>
+        <p>Ryan specializes in building clean, responsive UIs using React and Tailwind. 
+            With a design background, they focus on user-friendly, accessible web experiences.</p>
     </div>
+    <div class="profilecard">
+        <div class="badge">NEW</div>
+        <div class="image">
+            <img src="/3profilecards/photo-reel-022-scaled-1-1.jpg" alt="">
+        </div>
+        <h2>Jessica Smith</h2>
+        <br>
+        <p>Jessica is a backend engineer skilled in Java, Spring Boot, 
+            and cloud services. She builds scalable APIs and ensures system reliability and performance.</p>
+
+    </div>
+    <div class="profilecard">
+        <div class="badge">NEW</div>
+        <div class="image">
+            <img src="/3profilecards/Aramie-Brooks.webp" alt="">
+        </div>
+        <h2>Kennith Brooks</h2>
+        <br>
+        <p>Kenneth is a full-stack developer experienced in React, Node.js, and MongoDB. 
+            He delivers full-feature solutions from frontend to backend with speed and precision.</p>
+    </div>
+    <div class="about"><h1>About Us</h1></div>
+    <div class="description">
+        <p>At Nexora Technologies, we are a dynamic team of passionate software engineers committed to delivering innovative, 
+            scalable, and user-focused digital solutions. Founded on the belief that great software is built by great people, 
+            we bring together diverse strengths in frontend design, backend architecture, and full-stack development to craft 
+            seamless experiences that drive results.</p>
+        <br>
+        <p>Our team is composed of talented individuals with specialized expertise:
+
+Alex Ramirez, our Frontend Developer, brings a creative edge and a deep understanding of user interface design. With a strong foundation in React and modern CSS frameworks, Alex ensures that every product we build is not only visually polished but also intuitive and accessible to all users.
+
+Priya Desai, our Backend Engineer, is the powerhouse behind our server-side logic and systems integration. Skilled in Java, Spring Boot, and cloud-native technologies, Priya designs and implements robust APIs, manages data workflows, and ensures our platforms perform reliably and securely at scale.
+
+Jordan Lee, our Full-Stack Developer, operates seamlessly across the tech stack, tying together frontend and backend components into cohesive, high-performing applications. With proficiency in JavaScript frameworks, Python, and NoSQL databases, Jordan plays a critical role in feature development, deployment, and maintaining end-to-end functionality.
+
+Together, we collaborate with a shared vision: to help clients transform ideas into powerful digital products. Whether it's a startup MVP, a scalable enterprise platform, or a custom internal tool, Nexora Technologies delivers software that is elegant in design, efficient in code, and effective in solving real-world problems.
+
+We value transparency, continuous improvement, and strong client partnerships. Our agile development process, attention to detail, and dedication to quality make us a trusted technology partner in today’s fast-evolving digital landscape.</p>
+    </div>
+</div>
+
+    
 </body>
 </html>
